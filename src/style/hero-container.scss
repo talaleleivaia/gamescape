@@ -1,0 +1,163 @@
+// for smaller than 500px
+@media only screen and (max-width: 500px) {
+    .bg-img {
+        background-image: url("../../static/assets/images/hero-image.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: black;
+    }
+
+    .hero-wrapper {
+        height: 250vh;
+        width: 100%;
+        display: flex;
+        padding-left: 35px;
+        flex-direction: column;
+    
+        .hero-item-wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            height: 50%;
+            width: 70%;
+        }
+    
+        .hero-item-YouFound {
+            position: relative;
+            color: $light-blue;
+            font-family: 'Teko', sans-serif;
+            font-weight: 500;
+            font-size: 40px;
+            height: 0px;
+            left: 55px;
+        }
+    
+        .hero-item-game {
+            position: relative;
+            color: $pink;
+            font-family: 'Teko', sans-serif;
+            font-weight: 600;
+            font-size: 145px;
+            height: 65px;
+            left: 12px;
+        }
+    
+        .hero-item-scape {
+            position: relative;
+            color: $pink;
+            font-family: 'Teko', sans-serif;
+            font-weight: 600;
+            font-size: 200px;
+            height: 200px;
+        }
+    
+        .hero-item-DoYouEnter {
+            position: relative;
+            color: $light-blue;
+            font-family: 'Teko', sans-serif;
+            font-weight: 500;
+            font-size: 45px;
+            height: 45px;
+            padding-bottom: 50px;
+            right: 75px;
+        }
+    
+        .hero-item-button {
+            font-size: 35px;
+            color: $bronze;
+    
+        }
+    
+        .hero-item-button:hover {
+            transition: .8s ease;
+            color: $steel;
+        }
+    }    
+}
+
+// for bigger than 500px
+@media screen and (min-width: 500px) {
+
+.bg-img {
+    background-image: url("../../static/assets/images/hero-image.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+}
+
+.hero-wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .hero-item-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 100vh;
+        width: 70%;
+    }
+
+    .hero-item-YouFound {
+        position: relative;
+        color: $light-blue;
+        font-family: 'Teko', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        height: 0px;
+        left: 55px;
+    }
+
+    .hero-item-game {
+        position: relative;
+        color: $pink;
+        font-family: 'Teko', sans-serif;
+        font-weight: 600;
+        font-size: 145px;
+        height: 65px;
+        left: 12px;
+    }
+
+    .hero-item-scape {
+        position: relative;
+        color: $pink;
+        font-family: 'Teko', sans-serif;
+        font-weight: 600;
+        font-size: 200px;
+        height: 200px;
+    }
+
+    .hero-item-DoYouEnter {
+        position: relative;
+        color: $light-blue;
+        font-family: 'Teko', sans-serif;
+        font-weight: 500;
+        font-size: 45px;
+        height: 45px;
+        padding-bottom: 50px;
+        right: 75px;
+    }
+
+    .hero-item-button {
+        font-size: 20px;
+        color: $bronze;
+
+    }
+
+    .hero-item-button:hover {
+        transition: .8s ease;
+        color: $steel;
+    }
+}
+}
+
+

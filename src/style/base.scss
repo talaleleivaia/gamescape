@@ -1,0 +1,19 @@
+$burgundy: hsla(8, 28%, 36%, 1);
+$bronze: hsla(12, 22%, 48%, 1);
+$pink: #EFC7BE;
+$light-blue: #AFC6CC;
+$steel: hsla(190, 19%, 45%, 1);
+
+html,body {
+    background-color: black; 
+    color: $light-blue; 
+    margin: 0px;
+    height: 100%;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}

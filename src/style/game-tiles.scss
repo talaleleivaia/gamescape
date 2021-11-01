@@ -1,0 +1,140 @@
+// for smaller than 500px
+@media only screen and (max-width: 500px) {
+
+    .spacer{
+        background-color: black;
+        height: 60px;
+    }
+    .game-tiles-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+    
+        .game-tile-wrapper {
+            position: relative;
+            padding-bottom: 200px;
+    
+            .tile-wrapper {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+    
+            .game-tile-img-background {
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                height: 600px;
+                width: 600px;
+                border-radius: 50%;
+                transform: scale(70%);
+                filter: drop-shadow(0 0 2rem $steel);
+            }
+    
+            .img-text-wrapper {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+            .img-text-content {
+                color: $light-blue;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+                width: 80%;
+                }
+    
+                .img-text-title {
+                    font-family: teko, sans-serif;
+                    font-weight: 600;
+                    color: $pink;
+                    font-size: 5em;
+                    padding-bottom: 15px;
+                }
+    
+                .img-text-item {
+                    justify-content: right;
+                    padding-bottom: 20px;
+                    font-size: 1.2em;
+                }
+    
+                .img-text-button {
+                    color: $burgundy;
+                }
+    
+                .img-text-button:hover {
+                    transition: .8s;
+                    color: $steel;
+                }
+        }
+        }
+}
+
+
+// for bigger than 500px
+@media screen and (min-width: 500px) {
+.game-tiles-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    .game-tile-wrapper {
+        position: relative;
+        padding-bottom: 200px;
+
+        .tile-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .game-tile-img-background {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 600px;
+            width: 600px;
+            border-radius: 50%;
+            transform: scale(70%);
+            filter: drop-shadow(0 0 2rem $steel);
+        }
+
+        .img-text-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .img-text-content {
+            color: $light-blue;
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+            align-items: flex-end;
+            width: 80%;
+            }
+
+            .img-text-title {
+                font-family: teko, sans-serif;
+                font-weight: 600;
+                color: $pink;
+                font-size: 6em;
+                padding-bottom: 15px;
+            }
+
+            .img-text-item {
+                justify-content: right;
+                padding-bottom: 20px;
+                font-size: 1.2em;
+            }
+
+            .img-text-button {
+                color: $burgundy;
+            }
+
+            .img-text-button:hover {
+                transition: .8s;
+                color: $steel;
+            }
+    }
+    }
+}

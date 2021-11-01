@@ -1,0 +1,45 @@
+.no-match-bg-img {
+    background-image: url("../../static/assets/images/no-match-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    height: 100vh;
+}
+
+
+.banner-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: black;
+    height: 150px;
+    width: 100%;
+}
+
+.banner-text {
+    padding-bottom: 15px;
+    font-size: 1.3em;
+    text-align: center;
+    filter: opacity(100%);
+}
+
+a{
+    text-decoration: none;
+    color: $bronze;
+
+    &:hover {
+        transition: .8s ease;
+        color: $steel;
+    }
+}
+
+
