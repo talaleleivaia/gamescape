@@ -15,23 +15,23 @@ export default class NavigationComponent extends Component {
 
                 <div className="right-side">
                     <div className="nav-link-wrapper">
-                        <NavLink exact to = "/" activeClassName = "nav-link-active">
+                        <NavLink exact to = "/">
                             Home
                         </NavLink>
                     </div>
                     {/* you need to figure out how to make these links go to the game page */}
                     <div className="nav-link-wrapper">
-                        <a href = "https://agent-marsh-website.herokuapp.com/home.html" activeClassName = "nav-link-active">
+                        <a href = "https://agent-marsh-website.herokuapp.com/home.html" >
                             Agent Marsh
                         </a>
                     </div>
                     <div className="nav-link-wrapper">
-                        <NavLink to = "/game-page" activeClassName = "nav-link-active">
+                        <a href = "https://oneiric-game.herokuapp.com/index.html" >
                             Oneiric
-                        </NavLink>
+                        </a>
                     </div>
                     <div className="nav-link-wrapper">
-                        <NavLink to = "/about" activeClassName = "nav-link-active">
+                        <NavLink to = "/about">
                             Dev Team
                         </NavLink>
                     </div>
